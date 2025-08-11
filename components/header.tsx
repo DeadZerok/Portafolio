@@ -14,17 +14,16 @@ const Header = () => {
                         <h1 className="my-3 text-4xl font-bold text-center md:text-left">
                             Ivan
                             <span className="text-secondary">
-                            Dev
+                                Dev
                             </span>
                         </h1>
-                        tarredev
                     </Link>
                     <div className="flex items-center justify-center gap-7">
-                        {socialNetworks.map(({logo, src, id})=>(
-                            <Link key={id} 
-                            href={src}
-                            target="_blanck"
-                            className="transition-all duration-300 hover:text-secondary"
+                        {socialNetworks.map(({ logo, src, id }) => (
+                            <Link key={id}
+                                href={src}
+                                target="_blanck"
+                                className="transition-all duration-300 hover:text-secondary"
                             >
                                 {logo}
                             </Link>

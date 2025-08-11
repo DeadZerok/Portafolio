@@ -1,32 +1,29 @@
 @import "tailwindcss";
 
-
-
 /* Aquí defines utilidades personalizadas */
 @layer utilities {
   .bg-gradient-cover {
-    background-image: linear-gradient(
-      90.21deg,
-      rgba(130, 54, 124, 0.5) -5.91%,
-      rgba(74, 47, 189, 0.5) 111.58%
-    );
+    background-image: linear-gradient(90.21deg,
+        rgba(130, 54, 124, 0.5) -5.91%,
+        rgba(74, 47, 189, 0.5) 111.58%);
   }
 
-  .bg-secondary{
-
+  .bg-secondary {
+    --color-secondary: #F5741c;
   }
 }
 
 /* Colores personalizados como variables CSS */
 @theme {
-    --color-secondary: #F5741c;
-    --color-darkbg: #131424;
-  }
+  --color-secondary: #F5741c;
+  --color-darkbg: #131424;
+}
 
 
 
 
-html, body{
+html,
+body {
   color: #fff;
   background-color: #1f1934;
 }
@@ -36,7 +33,14 @@ main {
   height: 100vh;
   height: 100dvh;
 }
-@layer utilities{
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: #f5741c;
+}
+
+@layer utilities {
   .text-balance {
     text-wrap: balance;
   }

@@ -106,7 +106,7 @@ export const dataCounter = [
         endCounter: 80,
         text: "Clientes satisfechos",
         lineRight: true,
-        lineRightMobile: false,
+        lineRightMobile: true,
     },
     {
         id: 2,

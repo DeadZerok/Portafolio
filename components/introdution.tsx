@@ -22,7 +22,7 @@ const Introduccion = () => {
                                 "puedes implementarlo",
                                 1000,
                                 "puedes desarrollarlo",
-                                100
+                                1000
                             ]}
                             wrapper="span"
                             speed={50}

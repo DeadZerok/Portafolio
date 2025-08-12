@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Portafolio Personal - Next.js
 
-## Getting Started
+Este es mel **landing page de portafolio** desarrollado con [Next.js](https://nextjs.org/) y [Tailwind CSS](https://tailwindcss.com/), diseñado para mostrar mis proyectos, habilidades y experiencia de forma moderna, minimalista y optimizada para dispositivos móviles.
 
-First, run the development server:
+## 📦 1.Instalación 
+
+```bash
+# Instalacion
+npm install
+
+npx create-next-app@latest my-project --typescript --eslint 
+cd my-project
+```
+## 📦 2.Instalación de complementos
+
+```bash
+ npm install @tsparticles/react
+
+ npm i react-countup
+
+ npm install react-type-animation
+
+ npm install swiper
+
+ npm install motion
+
+ npm install lucide-react
+
+ npm install swiper
+```
+
+## 📦 3. Ejecutar en modo desarrollo
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Vista previa
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+> 💡 Si quieres ver el sitio en vivo, visita: **[https://ivanvarona.netlify.app/](https://ivanvarona.netlify.app/)**
+First, run the development server:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Tecnologías utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **[Next.js 15.4.6](https://nextjs.org/)** – Framework de React con renderizado híbrido (SSR/SSG).
+- **[react-countup](https://www.npmjs.com/package/react-countup)** – Componente de React para mostrar contadores animados con incrementos numéricos suaves.
+- **[react-type-animation](https://www.npmjs.com/package/react-type-animation)** – Componente de React para crear animaciones de texto que simulan escritura y borrado.
+- **[@tsparticles/react](https://motion.dev/docs/react)** – Librería para generar y personalizar partículas animadas en fondos interactivos dentro de aplicaciones React.
+- **[Swiper.js](https://swiperjs.com/)** – Librería de carruseles y sliders con soporte para gestos táctiles, animaciones y navegación responsiva.
+- **[Motion](https://motion.dev/docs/react)** – Librería de animaciones para React con sintaxis declarativa y alto rendimiento.
+- **[tailwindcss](https://tailwindcss.com/docs/installation/framework-guides/nextjs)** – Framework de CSS basado en utilidades para construir interfaces personalizadas de forma rápida y responsive.
+- **[Lucide React](https://lucide.dev/guide/packages/lucide-react)** – Conjunto de iconos SVG optimizados para React, personalizables.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+💻 **Idea tomada de TarreDev** (https://www.youtube.com/@tarredev) 

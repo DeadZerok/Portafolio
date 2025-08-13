@@ -12,16 +12,16 @@ const Introduccion = () => {
                 <Image src="/home-4.png" priority width={800} height={800} alt="profile pic" />
                 <div className="flex flex-col justify-center mas-w-md">
                     <h1 className="mb-5 text-2xl leading-tight text-center md:text-left
-                    md:text-4xl md:mb-10">si puedes pensarlo,
+                    md:text-4xl md:mb-10">Transformo,
                         <TypeAnimation
                             sequence={[
-                                "puedes programarlo",
+                                "ideas en soluciones inteligentes",
                                 1000,
-                                "Puedes optimizarlo",
+                                "hardware en experiencias interactivas",
                                 1000,
-                                "puedes implementarlo",
+                                "datos en decisiones precisas",
                                 1000,
-                                "puedes desarrollarlo",
+                                "tecnología en innovación real",
                                 1000
                             ]}
                             wrapper="span"
@@ -31,21 +31,21 @@ const Introduccion = () => {
                         />
                     </h1>
                     <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
-                        Como desarrollador frontend y creador de contenido, me dedico a combinar diseño y funcionalidad para crear experiencias  digitales inpactantes y accesibles.
+                        Como desarrollador, convierto ideas en soluciones web.<br /><br /> cuento con conocimientos en IoT, inteligencia artificial y blockchain, integrando creatividad, código y datos para diseñar experiencias digitales únicas, eficientes y memorables.
                     </p>
 
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10 ">
-                        <Link 
-                        href="/projects" 
-                        className="px-3 py-2 transition-all border-2 
+                        <Link
+                            href="/portfolio"
+                            className="px-3 py-2 transition-all border-2 
                         cursor-pointer text-md w-fit rounded-xl 
                         hover:shadow-xl hover:shadow-white/50 ">
-                            Ver Proyectos
+                            Mis Proyectos
                         </Link>
 
-                        <Link 
-                        href="/contact" 
-                        className="px-3 py-2 transition-all border-2 
+                        <Link
+                            href="/contact"
+                            className="px-3 py-2 transition-all border-2 
                         cursor-pointer  text-secondary border-secondary text-md w-fit rounded-xl 
                         hover:shadow-xl hover:shadow-secondary ">
                             Contactame

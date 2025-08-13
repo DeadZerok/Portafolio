@@ -1,6 +1,6 @@
 # 🌐 Portafolio Personal - Next.js
 
-Este es mel **landing page de portafolio** desarrollado con [Next.js](https://nextjs.org/) y [Tailwind CSS](https://tailwindcss.com/), diseñado para mostrar mis proyectos, habilidades y experiencia de forma moderna, minimalista y optimizada para dispositivos móviles.
+Este es el **landing page de portafolio** desarrollado con [Next.js](https://nextjs.org/) y [Tailwind CSS](https://tailwindcss.com/), diseñado para mostrar mis proyectos, habilidades y experiencia de forma moderna, minimalista y optimizada para dispositivos móviles.
 
 ## 📦 1.Instalación 
 

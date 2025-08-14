@@ -13,8 +13,12 @@ const CertificatesPage = () => {
         <>
             <TransitionPage />
             <AvatarServices />
-            <div className='flex flex-col justify-center h-lvh'>
+            <div className='flex flex-col md:justify-center h-screen  py-30 mb-12'>
                 <CircleImage />
+
+                <div>
+                    <h1 className="text-2xl leading-tight text-center">Mis <span className="font-bold text-secondary">certificados</span></h1>
+                </div>
                 
                 <Slidercertificates/>
             </div>

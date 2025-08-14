@@ -61,12 +61,12 @@ export const itemsNavbar = [
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
     },
-    // {
-    //     id: 5,
-    //     title: "Home",
-    //     icon: <GraduationCap size={25} color="#fff" strokeWidth={1} />,
-    //     link: "/certificates",
-    // },
+    {
+        id: 5,
+        title: "Certificates",
+        icon: <GraduationCap size={25} color="#fff" strokeWidth={1} />,
+        link: "/certificates",
+    },
 ];
 
 export const dataAboutPage = [
@@ -247,44 +247,86 @@ export const dataPortfolio = [
 export const dataCertificates = [
     {
         id: 1,
-        name: "George Snow",
-        description:
-            "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
-        imageUrl: "/profile1.png",
+        name: "JavaScript Essentials 1",
+        date: "Dic 2025",
+        description:"Cisco",
+        imageUrl: "/certi1.png",
     },
     {
         id: 2,
-        name: "Juan Pérez",
+        name: "IA Generativa: Conceptos básicos de ingeniería de instrucciones",
+        date: "Jul 2025",
         description:
-            "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
-        imageUrl: "/profile2.png",
+            "IBM",
+        imageUrl: "/certi2.png",
     },
     {
         id: 3,
-        name: "María García",
+        name: "Elementos de la IA",
+        date: "Mar 2025",
         description:
-            "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
-        imageUrl: "/profile3.png",
+            "Universidad de Helsinki y Reaktor",
+        imageUrl: "/certi10.png",
     },
     {
         id: 4,
-        name: "Laura Snow",
-        description:
-            "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
-        imageUrl: "/profile4.png",
+        name: "Cómo resolver problemas y tomar decisiones con eficacia",
+        date: "Jul 2025",
+        description:"Universyty of California",
+        imageUrl: "/certi2.png",
     },
     {
         id: 5,
-        name: "Carlos Sánchez",
+        name: "PCAP: Programming Essentials in Python",
+        date: "Dic 2022",
         description:
-            "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
-        imageUrl: "/profile5.png",
+            "OpenEDG Python Institute",
+        imageUrl: "/certi4.png",
     },
+    
+    
     {
         id: 6,
-        name: "Antonio Martínez",
+        name: "Masterclass 5G Y Casos de uso ",
+        date: "Oct 2024",
         description:
-            "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
-        imageUrl: "/profile6.png",
+            "Ericsson",
+        imageUrl: "/certi5.png",
     },
+    
+    {
+        id: 7,
+        name: "Industria 4.0",
+        date: "Oct 2023",
+        description:
+            "Ericsson",
+        imageUrl: "/certi6.png",
+    },
+    
+    {
+        id: 8,
+        name: "Ethical hacking ",
+        date: "Oct 2022",
+        description:
+            "HackerMentor",
+        imageUrl: "/certi7.png",
+    },
+    {
+        id: 9,
+        name: "Variables y estructuras de Contron en Python ",
+        date: "Sep 2022",
+        description:
+            "SENA",
+        imageUrl: "/certi8.png",
+    },
+    {
+        id: 10,
+        name: "metodologia de la programacion de sistemas informaticos",
+        date: "Jul 2022",
+        description:
+            "SENA",
+        imageUrl: "/certi9.png",
+    },
+    
+    
 ];

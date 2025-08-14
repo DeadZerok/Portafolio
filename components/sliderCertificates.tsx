@@ -1,46 +1,43 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards } from 'swiper/modules';
-import { dataCertificates, serviceData } from '@/data';
+import { dataCertificates } from '@/data';
 
-const Slidercertificates = () => {
+import Image from 'next/image';
+
+const SliderCertificates = () => {
     return (
-        <Swiper
-            breakpoints={{
-                320: {
-                    slidesPerView: 1,
-                    spaceBetween: 15
-                },
-                768: {
-                    slidesPerView: 2,
-                    spaceBetween: 15
-                },
-                1024: {
-                    slidesPerView: 3,
-                    spaceBetween: 15
-                }
-            }}
+        <div className="flex justify-between items-center w-full py-8 px-7">
+            <Swiper
+                effect={'cards'}
+                grabCursor={true}
+                modules={[EffectCards]}
+                breakpoints={{
+                    320: { slidesPerView: 1, spaceBetween: 10 },  // móvil
+                    768: { slidesPerView: 2, spaceBetween: 15 },  // tablet
+                    1024: { slidesPerView: 3, spaceBetween: 30 }  // desktop
+                }}
+                className=" w-full max-w-[1200px] h-[350px] md:h-[450px] lg:max-w-[1700px]"
+            >
+                {dataCertificates.map(({ id, name, date, description, imageUrl }) => (
+                    <SwiperSlide key={id}>
+                        <div className="flex flex-col justify-start  h-full rounded-xl cursor-pointer bg-[rgba(65,47,123)] hover:bg-[rgba(89,65,169)] transition-all duration-300 border-2 border-white/20 hover:border-secondary">
+                            <div className=" text-lg md:text-xl text-secondary font-bold my-3 mx-3">{name}</div>
+                            <div className='text-xs text-gray-400/80 mx-7 mb-1'>{date}{", "}<span className="text-base font-bold text-white/80">{description} </span></div>
+                            <div className="flex flex-col ">
+                                <div className='flex flex-col justify-between items-center my-1 mx-3 aspect-auto '>
+                                    <Image src={imageUrl} alt="Image product" width={1056} height={816} 
+                                        className="w-full max-h-[250px] md:max-h-[340px]  rounded-xl "
+                                    />
+                                </div>
 
-            effect={'cards'}
-            grabCursor={true}
-            modules={[EffectCards]}
-            className="h-[280px] md:h-[340px] w-[270px] md:w-[550px]"
-        >
 
-            {dataCertificates.map(({id, name, description, imageUrl})=>
-            (
-                <SwiperSlide key={id} >
-                    <div className="flex px-6 py-8 h-auto md:h-[290px] rounded-lg cursor-pointer bg-[rgba(65,47,123,0.15)] sm:flex-col gap-x-6 sm:gap-x-0 group hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 hover:border-secondary border-2">
-                        <div className="mb-4 text-4xl text-secondary">{name}</div>
-                        <div>
-                            <h3 className="mb-4 text-lg">{description}</h3>
-                            <p className="text-sm">{imageUrl}</p>
+                            </div>
                         </div>
-                    </div>
-                </SwiperSlide>
-            ))}
-
-        </Swiper>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+        </div>
     );
-}
+};
 
-export default Slidercertificates;
+export default SliderCertificates;

@@ -26,6 +26,7 @@ const SliderServices = () => {
             }}
             freeMode={true}
             pagination={{
+                dynamicBullets: true,
                 clickable: true
             }}
             modules={[Pagination]}

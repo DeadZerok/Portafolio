@@ -1,4 +1,4 @@
-import {MonitorSmartphone , Hammer, Code,BotMessageSquare, BrainCircuit, BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import {GraduationCap, MonitorSmartphone , Hammer, Code,BotMessageSquare, BrainCircuit, BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
 import { getPublicRepos } from "@/lib/github";
 
 
@@ -61,12 +61,12 @@ export const itemsNavbar = [
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
     },
-    {
-        id: 5,
-        title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
-    },
+    // {
+    //     id: 5,
+    //     title: "Home",
+    //     icon: <GraduationCap size={25} color="#fff" strokeWidth={1} />,
+    //     link: "/certificates",
+    // },
 ];
 
 export const dataAboutPage = [
@@ -244,7 +244,7 @@ export const dataPortfolio = [
     // }
 ];
 
-export const dataTestimonials = [
+export const dataCertificates = [
     {
         id: 1,
         name: "George Snow",

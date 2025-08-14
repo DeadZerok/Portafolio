@@ -11,7 +11,7 @@ const pageAboutMe = () => {
             <TransitionPage />
             <ContainerPage>
                 <Avatar />
-                <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">toda mi{' '}
+                <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">Toda mi{' '}
                     <span className="font-bold text-secondary">Trayectoria profecional</span>
                 </h1>
 

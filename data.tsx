@@ -1,4 +1,11 @@
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { getPublicRepos } from "@/lib/github";
+
+
+const username = process.env.GITHUB_USERNAME!;
+
+// Usamos top-level await para obtener el dato
+const projectCount = await getPublicRepos(username);
 
 export const socialNetworks = [
     {
@@ -65,63 +72,68 @@ export const itemsNavbar = [
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
+        title: "Clasificador de frutas frescas y podridas con IA",
+        subtitle: "Python, TensorFlow, MobileNetV2, Computer Vision, Machine Learning",
+        description: "Desarrollé y optimicé un sistema de clasificación automática de frutas frescas vs. podridas usando MobileNetV2 con fine-tuning. Aplicación directa en supermercados y procesos agrícolas automatizados",
+        date: "jun 2025 ",
     },
     {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "Iluminacion y Automatizacion de Escalera con pagina web",
+        subtitle: "C++, html, css, javaScript, Esp 32",
+        description: "Desarrolle en un sistema de iluminación inteligente y automatizada para escaleras, diseñado para mejorar la seguridad y la comodidad. con una interfaz Web que Permite una configuración sencilla y monitoreo del sistema.",
+        date: "Feb 2025",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "Prácticas Grado",
+        subtitle: "Sistema de seguridad SBC con tecnología IoT para la protección de motocicletas en la ciudad de Popayán",
+        description: "Desarrollé un sistema completo de IoT para seguridad de motocicletas con autenticación múltiple (Telegram Bot API, huella dactilar, RFID). Implementación de sensores de vibración para detección de hurto y notificaciones con Telegram.",
+        date: "dic 2024",
     },
     {
         id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
+        title: "Blockchain para autenticación de aceites lubricantes",
+        subtitle: "Blockchain, Sistemas distribuidos, Criptografía, JavaScript, Node.js",
+        description: "Desarrollé una solución web con blockchain para prevenir falsificación de envases, registrando cada producto como bloque único con número de serie, lote y fecha de producción. Mejora significativa en trazabilidad y seguridad.",
+        date: "Sep 2024",
     },
+    
 ]
 
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 10,
+        endCounter: 1,
         text: "Años de experiencia",
         lineRight: true,
         lineRightMobile: true,
     },
-    {
-        id: 1,
-        endCounter: 80,
-        text: "Clientes satisfechos",
-        lineRight: true,
-        lineRightMobile: true,
-    },
-    {
-        id: 2,
-        endCounter: 220,
-        text: "Proyectos finalizados",
-        lineRight: true,
-        lineRightMobile: true,
-    },
+
     {
         id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
-        lineRight: false,
-        lineRightMobile: false,
+        endCounter: 6,
+        text: "Aplicaciones Desarrolladas",
+        lineRight: true,
+        lineRightMobile: true,
     },
+
+    {
+        id: 1,
+        endCounter: projectCount,
+        text: "Repositorios en GitHub",
+        lineRight: true,
+        lineRightMobile: true,
+    },
+
+    {
+        id: 2,
+        endCounter: 15,
+        text: "Certificaciones obtenidas",
+        lineRight: true,
+        lineRightMobile: true,
+    },
+
 ];
 
 export const serviceData = [

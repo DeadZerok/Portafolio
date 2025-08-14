@@ -5,9 +5,11 @@ import { Pagination } from 'swiper/modules';
 
 import { serviceData } from '@/data';
 
+
 const SliderServices = () => {
     return (
         <Swiper
+            
             breakpoints={{
                 320: {
                     slidesPerView: 1,

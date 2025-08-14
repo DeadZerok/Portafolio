@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import {MonitorSmartphone , Hammer, Code,BotMessageSquare, BrainCircuit, BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
 import { getPublicRepos } from "@/lib/github";
 
 
@@ -98,7 +98,7 @@ export const dataAboutPage = [
         description: "Desarrollé una solución web con blockchain para prevenir falsificación de envases, registrando cada producto como bloque único con número de serie, lote y fecha de producción. Mejora significativa en trazabilidad y seguridad.",
         date: "Sep 2024",
     },
-    
+
 ]
 
 export const dataCounter = [
@@ -137,15 +137,16 @@ export const dataCounter = [
 ];
 
 export const serviceData = [
+
     {
-        icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
+        icon: <BrainCircuit  />,
+        title: "Sistemas IoT y automatización",
+        description: "Diseño e implementación de sistemas inteligentes con control remoto vía web.",
     },
     {
         icon: <Pencil />,
         title: "Diseño web",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
+        description: "Diseño creativo y profesional de interfaces web, centradas en la experiencia del usuario",
     },
     {
         icon: <Computer />,
@@ -153,15 +154,35 @@ export const serviceData = [
         description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
     },
     {
-        icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
+        icon: <BotMessageSquare />,
+        title: "Inteligencia Artificial",
+        description: "Implementación de modelos de IA para clasificación, predicción y análisis de datos.",
     },
     {
         icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        title: "Prototipado",
+        description: "Diseño de prototipos funcionales para validar ideas tecnológicas antes de su producción. ",
     },
+    {
+        icon: <MonitorSmartphone  />,
+        title: "Tecnologías ",
+        description: [ "• React", "• Next.js", "• Node.js", "• IA", "• IoT",].map((item, i) =>
+            <span key={i}>{item} <br /></span >),
+    },
+    {
+        icon: <Code />,
+        title: "Lenguajes ",
+        description: [ "• Java", "• C++", "• Python", "• JavaScript", "• Python",].map((item, i) =>
+            <span key={i}>{item} <br /></span >),
+    },
+
+    {
+        icon: <Hammer  />,
+        title: "Herramientas ",
+        description: [ "• Docker", "• git", "• VSC"].map((item, i) =>
+            <span key={i}>{item} <br /></span >),
+    },
+    
 ];
 
 export const dataPortfolio = [

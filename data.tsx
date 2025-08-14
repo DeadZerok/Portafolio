@@ -188,60 +188,60 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
+        title: "Portafolio",
         image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/DeadZerok/Portafolio",
+        urlDemo: "https://ivanvarona.netlify.app/",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
+        title: "Clasificador de frutas ",
         image: "/image-2.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/DeadZerok/FrutasSanasPodridas",
         urlDemo: "#!",
     },
     {
         id: 3,
-        title: "Estrategias Web",
+        title: "Iluminacion y Automatizacion de Escalera",
         image: "/image-3.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/DeadZerok/IluminacionAutomaticaEscalera-ESP32-c3",
         urlDemo: "#!",
     },
     {
         id: 4,
-        title: "Ideas Creativas",
+        title: "Sistema de seguridad SBC para motos",
         image: "/image-4.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/DeadZerok/Sistema-de-seguridad-Moto",
         urlDemo: "#!",
     },
     {
         id: 5,
-        title: "Webs Impactantes",
+        title: "Blockchain para autenticación",
         image: "/image-5.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/DeadZerok/BlockChain",
         urlDemo: "#!",
     },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    }
+    // {
+    //     id: 6,
+    //     title: "Web Dinámica",
+    //     image: "/image-6.jpg",
+    //     urlGithub: "#!",
+    //     urlDemo: "#!",
+    // },
+    // {
+    //     id: 7,
+    //     title: "Dark Web ",
+    //     image: "/image-7.jpg",
+    //     urlGithub: "#!",
+    //     urlDemo: "#!",
+    // },
+    // {
+    //     id: 8,
+    //     title: "E-commerce web",
+    //     image: "/image-8.jpg",
+    //     urlGithub: "#!",
+    //     urlDemo: "#!",
+    // }
 ];
 
 export const dataTestimonials = [

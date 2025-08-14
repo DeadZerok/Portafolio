@@ -8,14 +8,11 @@
         rgba(74, 47, 189, 0.5) 111.58%);
   }
 
-  .bg-secondary {
-    --color-secondary: #F5741c;
-  }
 }
 
 /* Colores personalizados como variables CSS */
 @theme {
-  --color-secondary: #F5741c;
+  --color-secondary: #f5741c;
   --color-darkbg: #131424;
 }
 

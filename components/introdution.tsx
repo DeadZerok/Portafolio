@@ -8,9 +8,9 @@ import { TypeAnimation } from "react-type-animation";
 const Introduccion = () => {
     return (
         <div className="z-20 w-full bg-dark/60">
-            <div className="  z-20 grid items-center h-full p-5 py-30 md:py-0 md:grid-cols-2">
-                <Image src="/home-4.png" priority width={800} height={800} className="w-64 mx-auto  md:w-170" alt="profile pic" />
-                <div className="flex flex-col justify-center mas-w-md">
+            <div className="  z-20 grid items-center h-full p-5 py-27 md:py-0 md:grid-cols-2">
+                <Image src="/home-4.png" priority width={800} height={800} className="w-64 mx-auto  md:w-[600px]" alt="profile pic" />
+                <div className="flex flex-col justify-center max-w-md">
                     <h1 className="mb-5 text-xl leading-tight text-center md:text-left
                     md:text-4xl md:mb-10">Transformo,
                         <TypeAnimation

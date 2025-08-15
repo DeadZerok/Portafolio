@@ -26,12 +26,12 @@ export const socialNetworks = [
     {
         id: 4,
         logo: <PiTiktokLogoDuotone size={30} strokeWidth={1} />,
-        src: "https://www.tiktok.com/@ivan.arley7",
+        src: "www.tiktok.com/@ivan.arley7",
     },
     {
         id: 5,
         logo: <PiLinkedinLogoDuotone  size={30} strokeWidth={1} />,
-        src: "www.linkedin.com/in/ivanvarona",
+        src: "https://www.linkedin.com/in/ivanvarona",
     },
 ];
 

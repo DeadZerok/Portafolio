@@ -24,9 +24,10 @@ cd my-project
 
  npm install motion
 
- npm install lucide-react
-
  npm install swiper
+ 
+ npm install react-icons --save
+
 ```
 
 ## 📦 3. Ejecutar en modo desarrollo

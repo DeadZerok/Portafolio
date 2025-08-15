@@ -1,5 +1,5 @@
-import {GraduationCap, MonitorSmartphone , Hammer, Code,BotMessageSquare, BrainCircuit, BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
 import { getPublicRepos } from "@/lib/github";
+import { PiGithubLogoDuotone, PiTiktokLogoDuotone, PiTwitchLogoDuotone, PiHouseLineDuotone, PiUserCircleDuotone, PiGearSix, PiGearSixDuotone, PiCodeBlockDuotone, PiCodeDuotone, PiCertificateDuotone, PiHeadCircuitDuotone, PiCircuitryDuotone, PiFigmaLogoDuotone, PiAngularLogoDuotone, PiPencilRulerDuotone, PiFileJsDuotone, PiToolboxDuotone, PiAtomDuotone, PiInstagramLogoDuotone, PiLinkedinLogoDuotone   } from 'react-icons/pi'
 
 
 const username = process.env.GITHUB_USERNAME!;
@@ -10,28 +10,28 @@ const projectCount = await getPublicRepos(username);
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <PiInstagramLogoDuotone  size={30}/>,
+        src: "https://www.instagram.com/ivan_varona_o/",
     },
-    {
-        id: 2,
-        logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
-    },
+    // {
+    //     id: 2,
+    //     logo: <Twitter   />,
+    //     src: "#!",
+    // },
     {
         id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <PiGithubLogoDuotone   size={30} strokeWidth={1} />,
+        src: "https://github.com/DeadZerok",
     },
     {
         id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <PiTiktokLogoDuotone size={30} strokeWidth={1} />,
+        src: "https://www.tiktok.com/@ivan.arley7",
     },
     {
         id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <PiLinkedinLogoDuotone  size={30} strokeWidth={1} />,
+        src: "www.linkedin.com/in/ivanvarona",
     },
 ];
 
@@ -40,31 +40,31 @@ export const itemsNavbar = [
     {
         id: 1,
         title: "Home",
-        icon: <HomeIcon size={25} color="#fff" strokeWidth={1} />,
+        icon: <PiHouseLineDuotone size={25} color="#fff" strokeWidth={1} />,
         link: "/",
     },
     {
         id: 2,
         title: "User",
-        icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
+        icon: <PiUserCircleDuotone size={28} color="#fff" strokeWidth={1} />,
         link: "/about-me",
     },
     {
         id: 3,
         title: "Book",
-        icon: <BookText size={25} color="#fff" strokeWidth={1} />,
+        icon: <PiGearSixDuotone  size={25} color="#fff" strokeWidth={1} />,
         link: "/services",
     },
     {
         id: 4,
         title: "Target",
-        icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
+        icon: <PiCodeDuotone size={26} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
     },
     {
         id: 5,
         title: "Certificates",
-        icon: <GraduationCap size={25} color="#fff" strokeWidth={1} />,
+        icon: <PiCertificateDuotone size={25} color="#fff" strokeWidth={1} />,
         link: "/certificates",
     },
 ];
@@ -139,45 +139,45 @@ export const dataCounter = [
 export const serviceData = [
 
     {
-        icon: <BrainCircuit  />,
+        icon: <PiCircuitryDuotone />,
         title: "Sistemas IoT y automatización",
         description: "Diseño e implementación de sistemas inteligentes con control remoto vía web.",
     },
     {
-        icon: <Pencil />,
+        icon: <PiFigmaLogoDuotone />,
         title: "Diseño web",
         description: "Diseño creativo y profesional de interfaces web, centradas en la experiencia del usuario",
     },
     {
-        icon: <Computer />,
+        icon: <PiAngularLogoDuotone />,
         title: "Desarrollo web",
         description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
     },
     {
-        icon: <BotMessageSquare />,
+        icon: <PiHeadCircuitDuotone />,
         title: "Inteligencia Artificial",
         description: "Implementación de modelos de IA para clasificación, predicción y análisis de datos.",
     },
     {
-        icon: <Rocket />,
+        icon: <PiPencilRulerDuotone />,
         title: "Prototipado",
         description: "Diseño de prototipos funcionales para validar ideas tecnológicas antes de su producción. ",
     },
     {
-        icon: <MonitorSmartphone  />,
+        icon: <PiAtomDuotone  />,
         title: "Tecnologías ",
         description: [ "• React", "• Next.js", "• Node.js", "• IA", "• IoT",].map((item, i) =>
             <span key={i}>{item} <br /></span >),
     },
     {
-        icon: <Code />,
+        icon: <PiFileJsDuotone />,
         title: "Lenguajes ",
         description: [ "• Java", "• C++", "• Python", "• JavaScript", "• Python",].map((item, i) =>
             <span key={i}>{item} <br /></span >),
     },
 
     {
-        icon: <Hammer  />,
+        icon: <PiToolboxDuotone  />,
         title: "Herramientas ",
         description: [ "• Docker", "• git", "• VSC"].map((item, i) =>
             <span key={i}>{item} <br /></span >),

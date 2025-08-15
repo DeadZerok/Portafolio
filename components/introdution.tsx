@@ -36,11 +36,11 @@ const Introduccion = () => {
 
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10 ">
                         <Link
-                            href="/portfolio"
+                            href="/services"
                             className="px-3 py-2 transition-all border-2 
                         cursor-pointer text-md w-fit rounded-xl 
                         hover:shadow-xl hover:shadow-white/50 ">
-                            Mis Proyectos
+                            Servicios
                         </Link>
 
                         <Link

@@ -27,7 +27,7 @@ const ServicesPage
                </div>
 
                {/* slider */}
-               <div className=" md:mx-28 h-100 md">
+               <div className=" md:mx-28 h-100 md:h-80">
                   <SliderServices />
                </div>
 

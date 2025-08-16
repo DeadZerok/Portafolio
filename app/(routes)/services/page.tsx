@@ -21,13 +21,13 @@ const ServicesPage
                   </h1>
                   <p className="mb-3 mx-6 md:mx-0 md:text-xl text-justify text-gray-300 ">Ofrezco soluciones tecnológicas que combinan <span className="font-bold">desarrollo web, IoT e inteligencia artificial</span>, especializadas en la creación de sitios únicos. Desde aplicaciones web modernas con <span className="font-bold">Next.js y React </span>hasta sistemas conectados con ESP32 para automatización y control. Trabajo con tecnologías como <span className="font-bold">TypeScript, Node.js, APIs y mas. </span>para entregar soluciones personalizadas que optimicen procesos.
                   </p>
-                  <div className="flex justify-center sm:justify-self-start ">
+                  <div className="flex justify-center md:justify-self-start ">
                      <button className="px-2 py-2 rounded-lg bg-secondary hover:bg-secondary/65 ">Contactame</button>
                   </div>
                </div>
 
                {/* slider */}
-               <div className="">
+               <div className=" mx-28">
                   <SliderServices />
                </div>
 

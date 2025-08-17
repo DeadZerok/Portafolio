@@ -202,7 +202,7 @@ export const dataPortfolio = [
     },
     {
         id: 3,
-        title: "Iluminacion y Automatizacion de Escalera",
+        title: "Iluminacion web de Escalera",
         image: "/image-3.jpg",
         urlGithub: "https://github.com/DeadZerok/IluminacionAutomaticaEscalera-ESP32-c3",
         urlDemo: "#!",
@@ -221,6 +221,7 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/DeadZerok/BlockChain",
         urlDemo: "#!",
     },
+    
     // {
     //     id: 6,
     //     title: "Web Dinámica",

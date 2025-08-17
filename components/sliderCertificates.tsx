@@ -20,13 +20,20 @@ const SliderCertificates = () => {
             >
                 {dataCertificates.map(({ id, name, date, description, imageUrl }) => (
                     <SwiperSlide key={id}>
-                        <div className="flex flex-col justify-start  h-full rounded-xl cursor-pointer bg-[rgba(65,47,123)] hover:bg-[rgba(89,65,169)] transition-all duration-300 border-2 border-white/20 hover:border-secondary">
-                            <div className=" text-lg md:text-xl text-secondary font-bold my-3 mx-3">{name}</div>
-                            <div className='text-xs text-gray-400/80 mx-7 mb-1'>{date}{", "}<span className="text-base font-bold text-white/80">{description} </span></div>
+                        <div className="flex flex-col justify-between  h-full rounded-xl cursor-pointer bg-[rgba(65,47,123)] hover:bg-[rgba(89,65,169)] transition-all duration-300 border-2 border-white/20 hover:border-secondary">
+                            <div className="flex flex-col">
+                                <div className="text-lg md:text-xl text-secondary font-bold mx-3 mt-5 mb-1">
+                                    {name}
+                                </div>
+                                <div className="text-xs text-gray-400/80 mx-5">
+                                    {date},{' '}
+                                    <span className="text-base font-bold text-white/80">{description}</span>
+                                </div>
+                            </div>
                             <div className="flex flex-col ">
-                                <div className='flex flex-col justify-between items-center my-1 mx-3 aspect-auto '>
-                                    <Image src={imageUrl} alt="Image product" width={1056} height={816} 
-                                        className="w-full max-h-[250px] md:max-h-[340px]  rounded-xl "
+                                <div className='flex flex-col justyfy-items-center mb-4 md:mb-10 mx-3 aspect-auto '>
+                                    <Image src={imageUrl} alt="Image product" width={1056} height={816}
+                                        className="w-full max-h-[250px] md:max-h-[340px]  rounded-3xl "
                                     />
                                 </div>
 

@@ -55,7 +55,7 @@ First, run the development server:
 - **[Lucide React](https://lucide.dev/guide/packages/lucide-react)** – Conjunto de iconos SVG optimizados para React, personalizables.
 
 ## 🖼️ Captura final
-<img width="1748" alt="Screenshot" src="public/image-1.jpg">
+<img width="1748" alt="Screenshot" src="public/portada-1.jpg">
 
 ---
 

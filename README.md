@@ -54,7 +54,8 @@ First, run the development server:
 - **[tailwindcss](https://tailwindcss.com/docs/installation/framework-guides/nextjs)** – Framework de CSS basado en utilidades para construir interfaces personalizadas de forma rápida y responsive.
 - **[Lucide React](https://lucide.dev/guide/packages/lucide-react)** – Conjunto de iconos SVG optimizados para React, personalizables.
 
-
+## 🖼️ Captura final
+<img width="1748" alt="Screenshot" src="public/image-1.jpg">
 
 ---
 

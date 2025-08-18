@@ -189,7 +189,7 @@ export const dataPortfolio = [
     {
         id: 1,
         title: "Portafolio",
-        image: "/image-1.jpg",
+        image: "/portada-1.jpg",
         urlGithub: "https://github.com/DeadZerok/Portafolio",
         urlDemo: "https://ivanvarona.netlify.app/",
     },

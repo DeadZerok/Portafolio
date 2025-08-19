@@ -196,30 +196,30 @@ export const dataPortfolio = [
     {
         id: 2,
         title: "Clasificador de frutas ",
-        image: "/image-2.jpg",
+        image: "/portada-6.jpg",
         urlGithub: "https://github.com/DeadZerok/FrutasSanasPodridas",
-        urlDemo: "#!",
+        urlDemo: "https://github.com/DeadZerok/FrutasSanasPodridas",
     },
     {
         id: 3,
         title: "Iluminacion web de Escalera",
-        image: "/image-3.jpg",
+        image: "/portada-4.jpg",
         urlGithub: "https://github.com/DeadZerok/IluminacionAutomaticaEscalera-ESP32-c3",
-        urlDemo: "#!",
+        urlDemo: "https://www.flux.ai/deadzerok/escalera-encendido?editor=pcb_3d",
     },
     {
         id: 4,
         title: "Sistema de seguridad SBC para motos",
-        image: "/image-4.jpg",
+        image: "/portada-3.jpg",
         urlGithub: "https://github.com/DeadZerok/Sistema-de-seguridad-Moto",
-        urlDemo: "#!",
+        urlDemo: "https://www.flux.ai/deadzerok/moto-final?editor=pcb_3d",
     },
     {
         id: 5,
         title: "Blockchain para autenticación",
-        image: "/image-5.jpg",
+        image: "/portada-2.jpg",
         urlGithub: "https://github.com/DeadZerok/BlockChain",
-        urlDemo: "#!",
+        urlDemo: "https://github.com/DeadZerok/BlockChain",
     },
     
     // {

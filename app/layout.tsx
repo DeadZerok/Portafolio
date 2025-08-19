@@ -18,8 +18,26 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  title: "👾 Portafolio 👾",
-  description: "Mi portafolio creado con Next.js y Tailwind CSS",
+  title: "Ivan Varona | Dev",
+  description: "Ivan Varona, desarrollador de software especializado en crear soluciones digitales innovadoras y eficientes.",
+  keywords: ["Ivan Varona", "desarrollador de software","ingenieria informatica", "IoT", "inteligencia artificial","Node.js", "JavaScript", "Next.js", "Tailwind", "React"],
+  openGraph: {
+  title: "Ivan Varona | Dev",
+  description: "Explora mi experiencia en desarrollo de software, IoT e inteligencia artificial.",
+  url: "https://ivanvarona.netlify.app/",
+  siteName: "Ivan Varona",
+  images: [
+    {
+      url: "/inicio.png", // imagen de portada (ideal 1200x630px)
+      width: 1200,
+      height: 630,
+      alt: "Iván Varona | Dev",
+    },
+  ],
+  locale: "es_CO",
+  type: "website",
+},
+
 };
 
 export default function RootLayout({

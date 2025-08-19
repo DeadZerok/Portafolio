@@ -39,7 +39,7 @@ const Introduccion = () => {
                             href="/services"
                             className="px-3 py-2 transition-all border-2 
                         cursor-pointer text-md w-fit rounded-xl 
-                        hover:shadow-xl hover:shadow-white/50 ">
+                        hover:shadow-lg hover:shadow-white/50 ">
                             Servicios
                         </Link>
 
@@ -47,7 +47,7 @@ const Introduccion = () => {
                             href="/contact"
                             className="px-3 py-2 transition-all border-2 
                         cursor-pointer  text-secondary border-secondary text-md w-fit rounded-xl 
-                        hover:shadow-xl hover:shadow-secondary ">
+                        hover:shadow-lg hover:shadow-secondary ">
                             Contactame
                         </Link>
                     </div>

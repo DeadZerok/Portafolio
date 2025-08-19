@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   siteName: "Ivan Varona",
   images: [
     {
-      url: "/inicio.png", // imagen de portada (ideal 1200x630px)
+      url: "https://ivanvarona.netlify.app/inicio.png", // imagen de portada (ideal 1200x630px)
       width: 1200,
       height: 630,
       alt: "Iván Varona | Dev",

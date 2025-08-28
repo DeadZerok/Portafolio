@@ -10,6 +10,7 @@ const projectCount = await getPublicRepos(username);
 export const socialNetworks = [
     {
         id: 1,
+        name:"Instagram",
         logo: <PiInstagramLogoDuotone  size={30}/>,
         src: "https://www.instagram.com/ivan_varona_o/",
     },
@@ -20,16 +21,19 @@ export const socialNetworks = [
     // },
     {
         id: 3,
+        name:"GitHub",
         logo: <PiGithubLogoDuotone   size={30} strokeWidth={1} />,
         src: "https://github.com/DeadZerok",
     },
     {
         id: 4,
+        name:"TikTok",
         logo: <PiTiktokLogoDuotone size={30} strokeWidth={1} />,
         src: "www.tiktok.com/@ivan.arley7",
     },
     {
         id: 5,
+        name:"LinkedIn",
         logo: <PiLinkedinLogoDuotone  size={30} strokeWidth={1} />,
         src: "https://www.linkedin.com/in/ivanvarona",
     },

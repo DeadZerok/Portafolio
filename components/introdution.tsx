@@ -31,7 +31,7 @@ const Introduccion = () => {
                         />
                     </h1>
                     <p className="mx-auto mb-2 text-[17px] md:mx-0 md:mb-8">
-                        Como desarrollador, convierto ideas en soluciones web.<br /><br /> cuento con conocimientos en IoT, inteligencia artificial y blockchain, integrando creatividad, código y datos para diseñar experiencias digitales únicas, eficientes y memorables.
+                        Como desarrollador, convierto ideas en soluciones web.<br /><br /> Cuento con conocimientos en IoT, inteligencia artificial y blockchain, integrando creatividad, código y datos para diseñar experiencias digitales únicas, eficientes y memorables.
                     </p>
 
                     <div className="flex items-center py-4 md:py-0 justify-center gap-4 md:justify-start md:gap-10 ">
@@ -48,7 +48,7 @@ const Introduccion = () => {
                             className="px-3 py-2 transition-all border-2 
                         cursor-pointer  text-secondary border-secondary text-md w-fit rounded-xl 
                         hover:shadow-lg hover:shadow-secondary ">
-                            Contactame
+                            Contáctame
                         </Link>
                     </div>
                 </div>

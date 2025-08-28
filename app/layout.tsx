@@ -1,21 +1,16 @@
 import type { Metadata } from "next";
 
-import { Urbanist } from "next/font/google";
 
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-
 
 import "./globals.css";
 
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 
-const urbanist = Urbanist({
-  subsets: ["latin"],
-  variable: "--font-urbanist",
-});
+
 
 export const metadata: Metadata = {
   title: "Ivan Varona | Dev",
@@ -47,7 +42,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`${urbanist.variable} antialiased`}>
+      <body >
         <Navbar/>
         <Header/>
         {children}

@@ -26,7 +26,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
             <div className="flex gap-5 mt-5 justify-center m- ">
                 <Link href={urlGithub} target="_blank"
                     className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/70">
-                    Github
+                    GitHub
                 </Link>
 
                 <Link href={urlDemo} target="_blank"

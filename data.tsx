@@ -74,28 +74,28 @@ export const dataAboutPage = [
         id: 1,
         title: "Clasificador de frutas frescas y podridas con IA",
         subtitle: "Python, TensorFlow, MobileNetV2, Computer Vision, Machine Learning",
-        description: "Desarrollé y optimicé un sistema de clasificación automática de frutas frescas vs. podridas usando MobileNetV2 con fine-tuning. Aplicación directa en supermercados y procesos agrícolas automatizados",
-        date: "jun 2025 ",
+        description: "Desarrollé y optimicé un sistema de clasificación automática de frutas frescas y podridas. Utilicé la arquitectura MobileNetV2 con fine-tuning para el modelo de IA. El proyecto tiene una aplicación directa en supermercados y procesos agrícolas automatizados.",
+        date: "Jun 2025 ",
     },
     {
         id: 2,
-        title: "Iluminacion y Automatizacion de Escalera con pagina web",
-        subtitle: "C++, html, css, javaScript, Esp 32",
-        description: "Desarrolle en un sistema de iluminación inteligente y automatizada para escaleras, diseñado para mejorar la seguridad y la comodidad. con una interfaz Web que Permite una configuración sencilla y monitoreo del sistema.",
+        title: "Iluminación y Automatización de Escalera con página web",
+        subtitle: "C++, Html, Css, JavaScript, Esp 32",
+        description: "Desarrollé un sistema de iluminación inteligente y automatizada para escaleras, diseñado para mejorar la seguridad y la comodidad. La interfaz web permite una configuración y un monitoreo sencillos del sistema.",
         date: "Feb 2025",
     },
     {
         id: 3,
         title: "Prácticas Grado",
-        subtitle: "Sistema de seguridad SBC con tecnología IoT para la protección de motocicletas en la ciudad de Popayán",
+        subtitle: "Sistema de seguridad SBC con tecnología IoT para la protección de motocicletas en la ciudad de Popayán.",
         description: "Desarrollé un sistema completo de IoT para seguridad de motocicletas con autenticación múltiple (Telegram Bot API, huella dactilar, RFID). Implementación de sensores de vibración para detección de hurto y notificaciones con Telegram.",
-        date: "dic 2024",
+        date: "Dic 2024",
     },
     {
         id: 4,
         title: "Blockchain para autenticación de aceites lubricantes",
         subtitle: "Blockchain, Sistemas distribuidos, Criptografía, JavaScript, Node.js",
-        description: "Desarrollé una solución web con blockchain para prevenir falsificación de envases, registrando cada producto como bloque único con número de serie, lote y fecha de producción. Mejora significativa en trazabilidad y seguridad.",
+        description: "Desarrollé una solución web con blockchain para prevenir falsificación de envases, registrando cada producto como bloque único con número de serie, lote y fecha de producción. Mejora significativa en trazabilidad y seguridadDesarrollé una solución web con blockchain para prevenir la falsificación de envases, registrando cada producto como un bloque único con su número de serie, lote y fecha de producción. Esto significó una mejora significativa en la trazabilidad y la seguridad.",
         date: "Sep 2024",
     },
 
@@ -146,12 +146,12 @@ export const serviceData = [
     {
         icon: <PiFigmaLogoDuotone />,
         title: "Diseño web",
-        description: "Diseño creativo y profesional de interfaces web, centradas en la experiencia del usuario",
+        description: "Diseño creativo y profesional de interfaces web, centradas en la experiencia del usuario.",
     },
     {
         icon: <PiAngularLogoDuotone />,
         title: "Desarrollo web",
-        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
+        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades.",
     },
     {
         icon: <PiHeadCircuitDuotone />,
@@ -161,7 +161,7 @@ export const serviceData = [
     {
         icon: <PiPencilRulerDuotone />,
         title: "Prototipado",
-        description: "Diseño de prototipos funcionales para validar ideas tecnológicas antes de su producción. ",
+        description: "Diseño de prototipos funcionales para validar ideas tecnológicas antes de su producción.",
     },
     {
         icon: <PiAtomDuotone  />,

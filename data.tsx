@@ -1,11 +1,8 @@
+
 import { getPublicRepos } from "@/lib/github";
 import { PiGithubLogoDuotone, PiTiktokLogoDuotone, PiTwitchLogoDuotone, PiHouseLineDuotone, PiUserCircleDuotone, PiGearSix, PiGearSixDuotone, PiCodeBlockDuotone, PiCodeDuotone, PiCertificateDuotone, PiHeadCircuitDuotone, PiCircuitryDuotone, PiFigmaLogoDuotone, PiAngularLogoDuotone, PiPencilRulerDuotone, PiFileJsDuotone, PiToolboxDuotone, PiAtomDuotone, PiInstagramLogoDuotone, PiLinkedinLogoDuotone   } from 'react-icons/pi'
 
 
-const username = process.env.GITHUB_USERNAME!;
-
-// Usamos top-level await para obtener el dato
-const projectCount = await getPublicRepos(username);
 
 export const socialNetworks = [
     {
@@ -124,7 +121,7 @@ export const dataCounter = [
 
     {
         id: 1,
-        endCounter: projectCount,
+        endCounter: 0,
         text: "Repositorios en GitHub",
         lineRight: true,
         lineRightMobile: true,
